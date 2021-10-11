@@ -3,6 +3,7 @@ var userInput;
 var userName;
 userInput = "Max";
 var tutiname;
+var namena;
 if (typeof userInput === 'string') {
     userName = userInput;
     console.log(userName);

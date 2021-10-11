@@ -3,7 +3,7 @@ let userName:string;
 
 userInput="Max";
 let tutiname:string;
-
+let namena:string;
 
 if(typeof userInput === 'string'){
     userName=userInput;
