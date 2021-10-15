@@ -1,6 +1,6 @@
 "use strict";
 function add(n1, n2, showResult, phrase) {
-    var result = n1 + n2;
+    const result = n1 + n2;
     if (showResult) {
         console.log(phrase + result);
     }
@@ -8,8 +8,8 @@ function add(n1, n2, showResult, phrase) {
         return result;
     }
 }
-var num1 = 5;
-var num2 = 2.8;
-var printResult = true;
-var resultPhrase = 'Result is: ';
+const num1 = 5;
+const num2 = 2.8;
+const printResult = true;
+const resultPhrase = 'Result is: ';
 add(num1, num2, printResult, resultPhrase);
